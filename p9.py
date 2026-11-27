@@ -1,6 +1,6 @@
 import sys
 def check_eligible(days):
- if days >= 7 and days > 0:
+ if days <= 7 and days > 0:
     return "eligible"
  else:
     return "not eligible"
